@@ -1,87 +1,95 @@
-🚀 Portfolio Streamlit - Data Scientist 
-Halo! Ini adalah web portfolio saya yang dibangun menggunakan Streamlit.
-Di sini Anda bisa melihat tentang saya, proyek-proyek yang saya buat, serta beberapa eksperimen machine learning sederhana.
+<h1>🚀 Portfolio Streamlit - Data Scientist</h1>
 
-📂 Struktur Project
-bash
-Copy
-Edit
+<p>Halo! Ini adalah <b>web portfolio</b> saya yang dibangun menggunakan <b>Streamlit</b>.<br>
+Di sini Anda bisa melihat tentang saya, proyek-proyek yang saya buat, serta beberapa eksperimen <b>machine learning</b> sederhana.</p>
+
+<hr>
+
+<h2>📂 Struktur Project</h2>
+
+<pre>
 BELAJAR_STREAMLIT/
 │
-├── app.py                # Main aplikasi Streamlit
-├── About_me.py           # Halaman Tentang Saya
-├── kontak.py             # Halaman Kontak (LinkedIn & GitHub)
-├── visualisasi.py        # Halaman Visualisasi Data
-├── prediksi.py           # Halaman Prediksi Churn (Machine Learning)
+├── app.py                  # Main aplikasi Streamlit
+├── About_me.py              # Halaman Tentang Saya
+├── kontak.py                # Halaman Kontak (LinkedIn & GitHub)
+├── visualisasi.py           # Halaman Visualisasi Data
+├── prediksi.py              # Halaman Prediksi Churn (Machine Learning)
 │
-├── bank_churn_data.csv   # Dataset bank churn untuk visualisasi
-├── X_test.csv            # Data testing untuk prediksi
-├── y_test.csv            # Label testing untuk prediksi
-├── xgb_model.joblib      # Model XGBoost untuk prediksi
+├── bank_churn_data.csv      # Dataset bank churn untuk visualisasi
+├── X_test.csv               # Data testing untuk prediksi
+├── y_test.csv               # Label testing untuk prediksi
+├── xgb_model.joblib         # Model XGBoost untuk prediksi
 │
-├── env-streamlit/        # Virtual environment (tidak perlu upload)
-├── __pycache__/          # Cache Python (abaikan)
+├── env-streamlit/           # Virtual environment (tidak perlu upload)
+├── __pycache__/             # Cache Python (abaikan)
 │
-└── README.md             # Dokumentasi project ini
-⚙️ Cara Menjalankan Project
-Clone repo ini:
+└── README.md                # Dokumentasi project ini
+</pre>
 
-bash
-Copy
-Edit
-git clone https://github.com/username-kamu/portfolio-streamlit.git
+<hr>
+
+<h2>⚙️ Cara Menjalankan Project</h2>
+
+<ol>
+  <li><b>Clone repo ini:</b>
+    <pre><code>git clone https://github.com/username-kamu/portfolio-streamlit.git
 cd portfolio-streamlit
-Aktifkan environment:
+</code></pre>
+  </li>
+  <li><b>Aktifkan environment:</b>
+    <pre><code>.\env-streamlit\Scripts\activate
+</code></pre>
+  </li>
+  <li><b>Install requirements:</b>
+    <pre><code>pip install -r requirements.txt
+</code></pre>
+  </li>
+  <li><b>Jalankan aplikasi:</b>
+    <pre><code>streamlit run app.py
+</code></pre>
+  </li>
+</ol>
 
-bash
-Copy
-Edit
-.\env-streamlit\Scripts\activate
-Install requirements:
+<hr>
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Jalankan aplikasi:
+<h2>🖥️ Fitur Aplikasi</h2>
 
-bash
-Copy
-Edit
-streamlit run app.py
-🖥️ Fitur Aplikasi
-Tentang Saya: Menampilkan profil singkat dan bidang keahlian saya.
+<ul>
+  <li><b>Tentang Saya:</b> Menampilkan profil singkat dan bidang keahlian saya.</li>
+  <li><b>Proyek:</b> Menampilkan visualisasi data.</li>
+  <li><b>Machine Learning:</b> Prediksi apakah pelanggan akan churn menggunakan model XGBoost.</li>
+  <li><b>Kontak:</b> Terhubung dengan saya lewat LinkedIn dan GitHub.</li>
+</ul>
 
-Proyek: Menampilkan visualisasi data.
+<hr>
 
-Machine Learning: Prediksi apakah pelanggan akan churn menggunakan model XGBoost.
+<h2>🛠️ Teknologi yang Digunakan</h2>
 
-Kontak: Terhubung dengan saya lewat LinkedIn dan GitHub.
+<ul>
+  <li>Python 3.12</li>
+  <li>Streamlit</li>
+  <li>Scikit-learn</li>
+  <li>XGBoost</li>
+  <li>Pandas</li>
+  <li>Matplotlib</li>
+  <li>Scikit-plot</li>
+  <li>LIME (Local Interpretable Model-agnostic Explanations)</li>
+  <li>DALEX (Model explanation tools)</li>
+</ul>
 
-🛠️ Teknologi yang Digunakan
-Python 3.12
+<hr>
 
-Streamlit
+<h2>📬 Kontak Saya</h2>
 
-Scikit-learn
+<ul>
+  <li><b>LinkedIn:</b> <a href="https://linkedin.com/in/username-kamu" target="_blank">LinkedIn Saya</a></li>
+  <li><b>GitHub:</b> <a href="https://github.com/username-kamu" target="_blank">GitHub Saya</a></li>
+</ul>
 
-XGBoost
+<hr>
 
-Pandas
+<h2>📄 Lisensi</h2>
 
-Matplotlib
-
-Scikit-plot
-
-LIME (Local Interpretable Model-agnostic Explanations)
-
-DALEX (Model explanation tools)
-
-📬 Kontak Saya
-LinkedIn: LinkedIn Saya
-
-GitHub: GitHub Saya
-
-📄 Lisensi
-Project ini dibuat untuk tujuan pembelajaran dan personal branding.
-Bebas digunakan untuk referensi pribadi.
+<p>Project ini dibuat untuk tujuan pembelajaran dan personal branding.<br>
+Bebas digunakan untuk referensi pribadi.</p>
