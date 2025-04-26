@@ -3,6 +3,8 @@
 <p>Halo! Ini adalah <b>web portfolio</b> saya yang dibangun menggunakan <b>Streamlit</b>.<br>
 Di sini Anda bisa melihat tentang saya, proyek-proyek yang saya buat, serta beberapa eksperimen <b>machine learning</b> sederhana.</p>
 
+<p>🌐 <b>Live Demo:</b> <a href="https://reygaferdiansyah-portofolio.streamlit.app/" target="_blank">Klik di sini untuk melihat aplikasi</a></p>
+
 <hr>
 
 <h2>📂 Struktur Project</h2>
